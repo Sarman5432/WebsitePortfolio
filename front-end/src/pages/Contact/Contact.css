@@ -1,0 +1,12 @@
+.contact-input{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 0px;
+}
+
+.contact-input p{
+  width: max-content;
+}

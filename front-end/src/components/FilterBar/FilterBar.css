@@ -1,0 +1,11 @@
+.filter-bar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.filter-bar-item{
+  margin: 10px 10px;
+  height: 40px;
+}

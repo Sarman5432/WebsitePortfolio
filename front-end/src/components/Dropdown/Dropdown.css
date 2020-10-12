@@ -1,0 +1,41 @@
+.dropdown{
+  position: relative;
+  background-color: white;
+  border: 1px solid black;
+  width: 200px;
+  min-width: 200px;
+  
+  cursor: pointer;
+}
+
+#drop-default{
+  padding: 10px;
+  margin: 0;
+  position: relative;
+}
+
+.drop-arrow{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dropdown-items{
+  position: absolute;
+  list-style: none;
+  background-color: white;
+  border: 1px solid black;
+  width: 200px;
+  padding: 10px;
+  margin: 0;
+  top: 38px;
+  left: -1px;
+  z-index: 100;
+}
+
+.drop-item:hover{
+  background-color: #f8efd4;
+}

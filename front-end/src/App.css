@@ -1,0 +1,107 @@
+/*
+https://colorhunt.co/palette/213455
+#132743
+#10223b
+#d7385e
+#edc988
+#f8efd4
+#fffbee;
+rgb(31, 31, 31);
+*/
+
+.App {
+  background-color: #132743;
+  height: 100vh;
+  font-size: 16px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+.btn-main {
+  background-color: #10223b;
+  color: #d7385e;
+  font-size: 16px;
+  letter-spacing: 4px;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 18px;
+  border: 1px solid white;
+  margin-top: 25px;
+  font-weight: bold;
+  box-shadow: -5px 5px 10px black;
+}
+
+.btn-main:hover{
+  background-color: white;
+  color: #132743;
+  cursor: pointer;
+}
+
+.btn-secondary{
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 18px;
+  border: 1px solid #d7385e;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #d7385e;
+  background-color: #f8efd4;
+}
+
+.btn-secondary:hover{
+  cursor: pointer;
+  background-color: white;
+}
+
+p{
+  margin: 0;
+}
+
+.page-wrap{
+  position: relative;
+  padding: 50px;
+  background-color: #fffbee;
+  height: 100vh;
+  width: 100%;
+  color: rgb(31, 31, 31);
+  overflow-y: scroll;
+}
+
+.page-wrap p{
+  padding: 20px 0px 30px 0px;
+}
+
+.page-wrap h2{
+  margin: 25px 0px 14px 0px;
+}
+
+.title{
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(31, 31, 31);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.highlight{
+  background-color: yellow;
+}
+
+.align-center{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 450px){
+  .page-wrap{
+    padding: 25px;
+  }
+}

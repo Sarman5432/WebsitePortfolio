@@ -1,0 +1,71 @@
+.navbar{
+  position: relative;
+  background-color: #f8efd4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  color: rgb(31, 31, 31);
+  padding: 0px 10px;
+  z-index: 1000;
+}
+
+.nav span, .nav{
+  display: flex;
+  align-items: center;
+}
+
+.nav p{
+  padding: 9px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav p:hover{
+  color: #d7385e;
+}
+
+.close{
+  color: #d7385e;
+}
+
+.nav .close:hover{
+  color: #ff003c;
+}
+
+.menu-icon{
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.nav .side-menu{
+  display: block;
+  width: 200px;
+  height: 100vh;
+  background-color: #f8efd4;
+  position: fixed;
+  right: 0;
+  top: 40px;
+  z-index: 500;
+}
+
+.side-menu p{
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.side-menu p:hover{
+  color: #d7385e;
+}
+
+.side-menu.slideIn{
+  transform: translateX(0px);
+}
+
+.side-menu.slideOut{
+  transform: translateX(200px);
+}
