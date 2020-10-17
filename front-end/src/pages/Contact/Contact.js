@@ -26,7 +26,7 @@ export default class Contact extends Component {
       body: JSON.stringify({
         name: this.state.name,
         email: this.state.email,
-        message: this.state.email,
+        message: this.state.message,
       }),
     })
       .then((res) => this.setState({ spinner: false, filter: "" }))
@@ -85,6 +85,7 @@ export default class Contact extends Component {
                 style={{ width: "200px" }}
                 value={this.state.name}
                 onChange={(e) => this.setState({ name: e.target.value })}
+                required
               />
             </div>
             <div className="contact-input">
@@ -97,6 +98,7 @@ export default class Contact extends Component {
                 style={{ width: "200px" }}
                 value={this.state.email}
                 onChange={(e) => this.setState({ email: e.target.value })}
+                required
               />
             </div>
             <div className="contact-input">
@@ -107,6 +109,7 @@ export default class Contact extends Component {
                 style={{ width: "200px", resize: "none", overflow: "auto" }}
                 value={this.state.message}
                 onChange={(e) => this.setState({ message: e.target.value })}
+                required
               />
             </div>
             <div className="contact-input">

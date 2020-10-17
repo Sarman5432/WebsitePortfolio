@@ -138,7 +138,7 @@ export default class Portfolio extends Component {
     } else {
       content = (
         <section className="portfolio-items-container">
-          {this.state.filteredData.map((item) => (
+          {this.state.filteredData.length<1 ? '' : this.state.filteredData.map((item) => (
             <div key={item.title} className="portfolio-item">
               <img
                 src={item.url}
